@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
+    <title>Founder — Sergii Antonov | REPRONOVA</title>
+
+    <meta
+      name="description"
+      content="Sergii Antonov — founder of REPRONOVA, fertility and medical lawyer with more than twenty years of experience in international reproductive law."
+    />
+
+    <meta name="theme-color" content="#662046" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    />
+
+    <!-- Swiper (на будущее, если решишь добавить слайдеры) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- Decorative squares (отключены) -->
+    <div class="bg-squares" aria-hidden="true">
+      <div class="bg-square s1"></div>
+      <div class="bg-square s2"></div>
+      <div class="bg-square s3"></div>
+    </div>
+
+        <!-- ================= HEADER ================= -->
+    <header class="site-header" id="site-header">
+      <div class="container">
+        <div class="header-inner">
+          <!-- LEFT MENU (one row) -->
+          <nav class="nav-desktop nav-left" aria-label="Main navigation left">
+            <div class="nav-row">
+              <a class="nav-link" href="#about">About Us</a>
+              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#parents">Intended Parents</a>
+              <a class="nav-link" href="#agencies">Agencies &amp; Clinics</a>
+            </div>
+          </nav>
+
+          <!-- LOGO -->
+          <a href="#top" class="header-logo" aria-label="REPRONOVA homepage">
+            <img src="./img/logo-Photoroom.png" alt="REPRONOVA" class="logo-icon" />
+          </a>
+
+          <!-- RIGHT MENU (one row) -->
+          <nav class="nav-desktop nav-right" aria-label="Main navigation right">
+            <div class="nav-row nav-row--right">
+              <a class="nav-link" href="#surrogates">Surrogates &amp; Donors</a>
+              <a class="nav-link" href="#news">News &amp; Events</a>
+              <a class="nav-link" href="#resources">Resources</a>
+
+              <!-- symmetry group -->
+              <div class="nav-right-tools" aria-label="Header tools">
+                <a class="nav-link nav-link--primary" href="#contacts">Contacts</a>
+
+                <button
+                  class="nav-icon-btn"
+                  id="open-search"
+                  type="button"
+                  aria-label="Search"
+                  aria-controls="search-overlay"
+                  aria-expanded="false"
+                  title="Search"
+                >
+                  <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                </button>
+
+                <div class="lang-switcher" id="lang-switcher">
+                  <button class="lang-current" type="button" aria-haspopup="true" aria-expanded="false">
+                    EN
+                  </button>
+                  <div class="lang-menu" role="menu" aria-label="Language menu">
+                    <button data-lang="en" class="active" type="button" role="menuitem">
+                      EN — English
+                    </button>
+                    <button data-lang="es" type="button" role="menuitem">ES — Español</button>
+                    <button data-lang="de" type="button" role="menuitem">DE — Deutsch</button>
+                    <button data-lang="ru" type="button" role="menuitem">RU — Русский</button>
+                  </div>
+                </div>
+              </div>
+              <!-- /symmetry group -->
+            </div>
+          </nav>
+
+          <!-- Mobile controls (only burger here) -->
+          <div class="header-controls">
+            <button
+              class="burger"
+              id="burger"
+              type="button"
+              aria-label="Open navigation"
+              aria-controls="nav-mobile"
+              aria-expanded="false"
+            >
+              <span class="burger-line"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= MOBILE NAV ================= -->
+    <nav class="nav-mobile" id="nav-mobile">
+      <ul class="nav-mobile-list container">
+        <li><a class="nav-mobile-link" href="/#about">About Us</a></li>
+        <li><a class="nav-mobile-link" href="/#services">Services</a></li>
+        <li><a class="nav-mobile-link" href="/#parents">Intended Parents</a></li>
+        <li><a class="nav-mobile-link" href="/#agencies">Agencies &amp; Clinics</a></li>
+        <li><a class="nav-mobile-link" href="/#surrogates">Surrogates &amp; Donors</a></li>
+        <li><a class="nav-mobile-link" href="/#news">News &amp; Events</a></li>
+        <li><a class="nav-mobile-link" href="/#resources">Resources</a></li>
+        <li><a class="nav-mobile-link" href="/#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <button class="back-to-top" id="back-to-top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- ================= MAIN ================= -->
+    <main id="top">
+      <!-- FOUNDER PAGE -->
+      <section class="band band-light" id="founder">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <h2>Founder — Sergii Antonov</h2>
+            <p>
+              Founder of REPRONOVA and international expert in reproductive law.
+            </p>
+          </div>
+
+          <div class="founder-layout">
+            <div class="founder-photo" data-aos="fade-right">
+            </div>
+            <div class="founder-text" data-aos="fade-left">
+              <h3 style="color: black;">About Sergii Antonov</h3>
+              <p style="color: black;">
+                Sergii Antonov is a fertility and medical lawyer and the founder
+                of REPRONOVA Agency. Trained as both a physician and an attorney,
+                he has spent more than twenty years advising clinics, agencies,
+                and intended parents on the legal and ethical safeguards of
+                cross-border surrogacy and assisted reproduction.
+              </p>
+              <p style="color: black;">
+                Drawing on his unique combination of clinical insight and legal
+                expertise, Sergii helps families build safe, transparent, and
+                legally secure paths to parenthood. His work focuses on
+                minimising legal risks for parents and children, ensuring
+                compliance with regulations in multiple jurisdictions, and
+                promoting ethical standards in the global fertility industry.
+              </p>
+              <p  style="color: black;">
+                Through REPRONOVA, Sergii supports intended parents, agencies,
+                clinics and donors worldwide, building bridges between medical
+                practice and the law so that every child’s story begins with
+                clarity, care and legal certainty.
+              </p>
+
+              <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+                <a href="/#about" class="btn-primary">
+                  Back to main page
+                </a>
+                <a style="color: black;" href="media.html" class="btn-outline">
+                  Media about us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a class="footer-logo" href="#top" aria-label="REPRONOVA homepage">REPRONOVA</a>
+            <p class="footer-tagline">Follow us</p>
+
+            <div class="footer-socials" aria-label="Social links">
+              <a href="#" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              <a href="#" aria-label="X" title="X"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+              <a href="#" aria-label="YouTube" title="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <div class="footer-col">
+              <div class="footer-title">Company</div>
+              <ul class="footer-links">
+                <li><a href="about/mission.html">Mission</a></li>
+                <li><a href="about/team.html">Team</a></li>
+                <li><a href="founder.html">Founder</a></li>
+                <li><a href="media.html">Media</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <div class="footer-title">Services</div>
+              <ul class="footer-links">
+                <li><a href="services.html">Full list</a></li>
+                <li><a href="services/legal-opinion.html">Legal opinions</a></li>
+                <li><a href="services/independent-advisor.html">Independent advisor</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <div class="footer-title">Resources</div>
+              <ul class="footer-links">
+                <li><a href="resources/legislation.html">Legislation</a></li>
+                <li><a href="resources/publications.html">Publications</a></li>
+                <li><a href="resources/faq.html">FAQ</a></li>
+                <li><a href="resources/guides.html">Guides</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <div class="footer-title">Updates</div>
+              <ul class="footer-links">
+                <li><a href="news.html">News</a></li>
+                <li><a href="events/our.html">Our events</a></li>
+                <li><a href="partners/clinics.html">Partners</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="footer-actions">
+            <div class="footer-title">Contact</div>
+
+            <div class="footer-contact">
+              <a class="footer-contact-item" href="mailto:info@repronova.com">
+                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                <span>info@repronova.com</span>
+              </a>
+
+              <a class="footer-contact-item" href="tel:+41445051510">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                <span>+41 44 505 15 10</span>
+              </a>
+
+              <div class="footer-contact-item footer-contact-item--muted">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <span>Switzerland · Remote worldwide</span>
+              </div>
+            </div>
+
+            <form class="footer-subscribe" id="subscribe-form">
+              <label class="sr-only" for="subscribe-email">Email</label>
+              <div class="footer-subscribe-row">
+                <input type="email" id="subscribe-email" required placeholder="your@email.com" />
+                <button class="btn-primary" type="submit">Subscribe</button>
+              </div>
+              <p id="subscribe-message" class="footer-note"></p>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <a href="policies/privacy-policy.html">Privacy Policy</a>
+            <span aria-hidden="true">·</span>
+            <a href="policies/cookie-policy.html">Cookies Policy</a>
+            <span aria-hidden="true">·</span>
+            <a href="policies/terms-and-conditions.html">Terms and Conditions</a>
+          </div>
+
+          <div class="footer-copy">© 2025 REPRONOVA. All rights reserved.</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
